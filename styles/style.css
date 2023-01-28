@@ -1,0 +1,398 @@
+/*-----------------------------
+ Header and Navigation Style
+ ----------------------------*/
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+    font-family: 'Work Sans', sans-serif;
+ }
+
+ nav ul{
+    display: flex;
+    align-items: center;
+    
+ }
+ nav li{
+    list-style: none;
+    margin-left: 50px;
+ }
+
+ .header-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    
+
+ }
+ .header-subtitle{
+    font-size: 16px;
+    color: gray;
+    text-align: center;
+    margin: 10px 300px;
+    
+
+ }
+ .primary-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color:rgb(230, 143, 13);
+    color: aliceblue;
+    margin: 5px 600px;
+    border: 0;
+}
+header img{
+    width: 1000px;
+    height: 500px;
+  margin: 50px 160px;
+
+}
+header{
+    background-color:rgb(248, 235, 215);
+}
+
+/* -------------------------------
+   'Quick List of Features' style 
+   ------------------------------- */
+
+   .team-image{
+    margin-top: 20px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.team-image img{
+    height: 230px;
+    width: 230px;
+
+}
+    
+.team-info{
+    display: flex;
+}
+.team-detail{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+.team-detail h2{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.team-title-first{
+    color:gray;
+}
+.team-title-last{
+    color:rgb(230, 143, 13);
+}
+.team-subtitle{
+    font-size: 13px;
+    color: gray;
+}
+.second-button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color:rgb(230, 143, 13);
+    color: aliceblue;
+    border: 0;
+}
+
+/*----------------------
+   Features Detail Style
+   ---------------------  */
+   .feature-detail-title h2{
+    border-left: 3px solid coral;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+   }
+   .feature-detail-title p{
+    margin-right: 50px;
+   }
+   .detail{
+    margin-left: 25px;
+    margin-right: 80px;
+    
+   }
+   .detail-container{
+    box-shadow: 0px 6px 30px; color: rgb(231, 243, 243);
+
+   }
+   .detail-heading{
+    font-size: 12px;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+   }
+   .detail-description{
+    font-size: 12px;
+    color: gray;
+   }
+   .feature-heading{
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-right: 20px;
+   }
+   .exp-button{
+    background-color: rgb(250, 155, 38);
+    border-radius: 5px;
+    border: 0;
+    padding: 22px 18px;
+    color: white;
+    position: relative;
+    right: 80px;
+    bottom: 70px;
+    }
+   .exp-button-text{
+    font-size: 30px;
+    font-weight: 700;
+   }
+   .features div img{
+    height: 520px;
+    width: 400px;
+    margin-right: 170px;
+    margin-top: 100px;
+   }
+   .features{
+    display: flex;
+   }
+
+   /*--------------------
+       Extra-task style
+     --------------------*/
+     .extra-task-title{
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 800;
+     }
+     .extra-task-image{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 300px;
+        border: 1px dashed orange;
+        border-radius: 10px;
+        transition: transform ease 0.5s;
+    }
+    .extra-task-image:hover{
+        transform: translate(6px);
+        box-shadow: 0px 10px 10px 5px rgb(83, 94, 21);
+    }
+    .image2{
+        margin-top: 50px;
+        
+     }
+    /*-----------------------------
+       'Some Facts' section style  
+     -----------------------------*/
+
+     .facts{
+        text-align:left;
+        margin-left: 180px;
+        
+     }
+     .facts h1{
+        font-family: 'Work Sans', sans-serif;
+     }
+
+     .facts-icon{
+        display: flex;
+        justify-content: space-between;
+        margin: 50px 220px;
+        text-align: center;
+       
+       
+    }
+    .facts-icon-detail{
+        border: 1px solid rgb(253, 144, 104);
+        height: 140px;
+        width: 140px;
+        border-radius: 5px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        transition: transform ease 0.5s;
+    }
+    .facts-icon-detail:hover{
+        transform: translate(-5px);
+        box-shadow: 0px 10px 20px 2px rgb(121, 247, 247);
+    }
+
+    .icon-number-design{
+        color: rgb(73, 72, 72);
+    }
+
+    /* ---------------------------
+          Sponsors section style
+      
+      ----------------------------*/
+      .sponsor{
+        text-align: center;
+      }
+      .sponsor-image{
+        display: flex;
+        margin: 50px 220px;
+        gap: 100px;
+       
+      }
+     .sponsor-image img{
+        height: 30px;
+        width: 90px;
+        filter: grayscale(100%);
+       
+     }
+     .sponsor h1{
+        font-family: 'Work Sans', sans-serif;
+     }
+
+
+      /*----------------
+          footer style  
+        ----------------*/
+
+      .footer{
+        background-color:rgb(248, 229, 234);
+        text-align: center;
+        margin: 50px 220px;
+        padding: 20px 80px;
+        font-size: 10px;
+        color: gray;
+        border-radius: 5px;
+      }
+
+      /*-----------------------------------------
+        -----Media Queries for mobile devices---- */
+
+     @media only screen and (max-width: 688px){
+
+        nav{
+            flex-direction: column;
+            padding: 0;
+            
+        }
+        nav ul{
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0;
+        }
+        nav h2{
+            margin: 60px 60px;
+        }
+
+
+        .header-subtitle{
+            margin: 10px 10px;
+        }
+        .primary-button{
+            margin-left:130px;
+            /* chnged  */
+          
+        }
+
+        
+        
+        
+        
+        header img{
+            height: 300px;
+            width: 320px;
+            margin-left: 10px;
+            
+        }
+
+
+
+      
+        .team-image{
+            grid-template-columns: repeat(1, 1fr);
+            margin: 50px 60px;
+        
+            
+
+        }
+        .team-info{
+            flex-direction: column;
+            
+        }
+        .team-detail{
+            margin-right: 70px;
+            margin-top: 10px;
+
+        }
+        .second-button{
+            margin-left: 50px;
+        }
+        
+        .features{
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+
+        }
+        .feature-heading{
+            margin-left: 20px;
+            
+        }
+        .features div img{
+            height: 500px;
+            width: 340px;
+            margin-top: 20px;
+        }
+        .features .exp-button{
+            margin-top: 20px;
+            margin-left: 180px;
+            bottom: 0;
+        }
+
+        .extra-task-image{
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            border: 0;
+            
+        }
+        .facts{
+            margin:5px;
+            
+        }
+        .detail-description{
+            margin: 10px 20px;
+        } 
+
+
+        .facts-icon{
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin: 20px 60px;
+            gap: 20px;
+        }
+
+        .sponsor-image{
+            flex-direction: column;
+
+            padding: 0;
+            gap: 30px;
+            margin-left: 130px;
+           
+
+        }
+
+
+        .footer{
+            margin: 10px 20px; 
+            
+           
+        
+        }
+        
+       
+        
+     }
+
+
+
+
+
+
+
+
